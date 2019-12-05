@@ -1,0 +1,36 @@
+//A method can only return a single value
+
+//Create a method to calculate the sum of two numbers and return the value
+
+public static double calcSum(double num1, double num2){
+
+	return num1 + num2;
+
+}
+
+//call/invoke/execute/run the method
+
+double sum;
+double n1 = 3.5;
+double n2 = 2.6;
+sum = calcSum(n1, n2);
+
+
+168-169
+Make sure to use Scanner
+ex 2a only
+
+1. display splash screen reuse sammys motto (display Method)
+2. call input module(Prompt and return the rental time minutes
+3. call process module (calculate the hours, extra min, price, call output module/pass hours, extra min, price)
+	output module will display the details
+	
+main
+	splashScreen();
+	input();
+	process();
+	
+process
+	calcs
+	output();
+	

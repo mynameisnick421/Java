@@ -34,12 +34,6 @@ public class Main {
             System.out.println(cLoose+" loose eggs at $"+cLooseTotalCost+".");
         }
 
-
-
-        //System.out.println(cDozen + " Dozen at $"+cDozenTotalCost);
-        //System.out.println(cLoose + " Loose at $"+cLooseTotalCost);
-        //System.out.println("Total amount due: $"+ cTotalCost);
-
         System.out.println("For a total of $"+cTotalCost);
     }
 }
