@@ -1,0 +1,34 @@
+Java loop
+
+definition: loop is repeating set of statement(s) executed while a certain conditon remains
+	true
+	
+uses of loops:	
+				reading from a file until end of file (eof)
+				get data from user at prompt
+				validation loop
+				look up values in an array (table)
+			
+			
+pre test:
+
+	//use for file processing, user entry loop, validate data entry
+	
+	while(condition ){
+		//loop body
+	}
+
+	//use for a predefined number of iterations, processing arrays
+	for (int i = 0; i<10; i++){
+		//loop body
+	}
+
+post test:
+
+	//use for user entry
+
+	do{
+	//loop body
+	}while(condition);
+	
+	

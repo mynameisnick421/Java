@@ -1,8 +1,8 @@
-public class Toy
-{
+public class Toy{
     public static String greeting;
-    final static double taxRate = 0.07;
-    private String fName;
+    final static double TAX_RATE = 0.07;
+    //instance variables
+    private static String fName;
     private String lName;
     private String fToyN;
     private double fToyP;
@@ -12,22 +12,8 @@ public class Toy
     private double taxAmt = 0;
     private double totalBill = 0;
 
-    public String getFName(){return fName;}
-    public String getLName(){return lName;}
-    public String getFToyN(){return fToyN;}
-    public double getFToyP(){return fToyP;}
-    public String getSToyN(){return sToyN;}
-    public double getSToyP(){return sToyP;}
-
-    public void setFName(String f) {fName = f; }
-    public void setLName(String l) {lName = l; }
-    public void setFToyN(String tN1) {fToyN = tN1; }
-    public void setFToyP(double tP1) {fToyP = tP1;}
-    public void setSToyN(String tN2) {sToyN = tN2;}
-    public void setSToyP(double tN2) {sToyP = tN2;}
-
-    public void Toy()
-    {
+    //default constructor-empty parentheses
+    public void Toy(){
         fName = "Elf";
         lName = "Onashelf";
         fToyN = "Monopoly";
@@ -35,16 +21,30 @@ public class Toy
         sToyN = "Legos";
         sToyP = 12.00;
     }
+        //accessor -getters
+    public String getFName(){return fName;}
+    public String getLName(){return lName;}
+    public String getFToyN(){return fToyN;}
+    public double getFToyP(){return fToyP;}
+    public String getSToyN(){return sToyN;}
+    public double getSToyP(){return sToyP;}
 
-    public void calculate()
-    {
+    //mutator- setters
+    public void setFName(String f) {fName = f;}
+    public void setLName(String l) {lName = l;}
+    public void setFToyN(String tN1) {fToyN = tN1;}
+    public void setFToyP(double tP1) {fToyP = tP1;}
+    public void setSToyN(String tN2) {sToyN = tN2;}
+    public void setSToyP(double tN2) {sToyP = tN2;}
+
+
+    public void calculate(){
         subtotal = fToyP + sToyP;
-        taxAmt = subtotal * taxRate;
+        taxAmt = subtotal * TAX_RATE;
         totalBill = subtotal + taxAmt;
     }
 
-    public String receipt()
-    {
+    public String receipt(){
         String oPt;
         oPt =   lName + ", " + fName +
                 "\nItem\t\tPrice\n" +
@@ -56,6 +56,4 @@ public class Toy
                 "\n"+greeting;
         return oPt;
     }
-
-
 }

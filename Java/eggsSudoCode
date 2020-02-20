@@ -1,0 +1,12 @@
+int iNumEggs, cDozen, cLoose
+Double DozenCost, LooseCost, cTotalCost, cDozenTotal, cLooseTotal
+
+Main
+	Prompt for num of eggs
+	iNumEggs = Input
+	cDozen = iNumEggs /12
+	cDozenTotal = cDozen * DozenCost
+	cLoose = iNumEggs % cDozen
+	cLooseTotal = cLoose * LooseCost
+	
+	

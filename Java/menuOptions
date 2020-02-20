@@ -1,0 +1,52 @@
+LOOP EXAMPLE
+	MAKE A MENU
+
+WELCOME TO MY AWESOME YEET program
+
+	1- Print Yeet.
+	2- Print Seymore.
+	E- Exit program.
+	
+Enter an option: 1
+	
+Enter a number: 3
+Yeet
+Yeet
+Yeet
+
+Press enter to return to Menu.
+
+	1- Print Yeet.
+	2- Print Seymore.
+	E- Exit program.
+	
+Enter an option: 2
+	
+Enter a number: 2
+Seymore
+Seymore
+
+Press enter to return to Menu.
+
+	1- Print Yeet.
+	2- Print Seymore.
+	E- Exit program.
+
+Enter an option: 3
+	
+Invalid option, press enter to try again.
+	
+	1- Print Yeet.
+	2- Print Seymore.
+	E- Exit program.
+	
+Enter an option: E
+	
+Exit program? Press enter to exit.
+
+
+
+
+
+
+

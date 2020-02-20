@@ -1,0 +1,30 @@
+page 107 exercise #11
+
+prompt user for name hours worked, rate of pay
+calculate net pay,
+display name, hours, rate, net pay
+
+String iName, oNetPay
+Int iHours
+Double iRate, cNetPay
+
+Main
+	display "Enter Name: "
+	get iName
+	display "Enter Hours: "
+	get iHours
+	display "Enter Pay Rate: "
+	get iRate
+	
+	cNetPay = iHours * iRate
+	
+	String oHours = format(iHours)
+	String oRate = format(iRate)
+	String oNetPay = format(iNetPay)
+	
+	Display "Wage information for " + iName + ": "
+	Display "Hours: " +oHours
+	Display "Rate: " + oRate
+	Display "Net Pay: " + oNetPay
+end-main
+	

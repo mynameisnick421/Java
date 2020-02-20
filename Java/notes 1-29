@@ -1,0 +1,25 @@
+pattern matching
+
+".*[0-9].*" any digit any where in the string
+".*[0-9]" any digit at the end of a string
+".*[a-z].*" lowercase
+".*[A-Z].*" uppercase
+
+period any character in the string
+
+String iName;
+        System.out.print("Enter your name: ");
+        iName = scan.nextLine();
+        //1-337-39707-5
+
+        if(iName.trim().length()>=13){
+            if(iName.matches("[0-9][-][0-9]{3}[-][0-9]{5}[-][0-9]")){
+                System.out.println("Name is valid");
+            }
+            else{
+                System.out.println("Name invalid");
+            }
+        }
+        else{
+            System.out.println("Name must be 13 characters");
+        }

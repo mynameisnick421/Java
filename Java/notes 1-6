@@ -1,0 +1,28 @@
+private double calcGPA(double cr) 
+	private access modifier - who can use the method
+	private - only other methods in the same class can invoke it
+	double - the data type being returned
+	without a static modifier - an instance method, so it can get to object data
+	receives a parameter of double
+	
+	example: 
+		Student s = new Student;
+		double GPA = s.calcGPA(78.9); // method would have to be public
+
+public static void displayMessage()
+
+	public- any method in any class can us it
+	void - does not return a value
+	static - cannot access any specific object's data
+	
+	example:
+		Student.displayMessage();
+
+private static int getQty() 
+
+
+
+
+private/public - who can use it
+
+static/non-static - how it can be used

@@ -1,0 +1,9 @@
+Methods are of 2 types: instance and non-instance
+
+instance: do not have the static modifier
+object.methodName
+
+non-instance: do have the static modifier
+Class.methodName
+
+a client is a class that uses another class's method

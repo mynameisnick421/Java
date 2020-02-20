@@ -3,7 +3,7 @@
  */
 public class RentalRevised {
     //instance variables (stored inside the object)
-    //private date public methods
+    //private data public methods
     private String name;
     private String phone;
     private int totMinutes;
